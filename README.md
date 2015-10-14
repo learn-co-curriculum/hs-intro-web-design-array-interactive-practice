@@ -2,20 +2,25 @@
 
 ### What will each of the following lines of code return?
 
+All the questions in this section will be based on this array:
+```js
+var colors = ["Red", "Magenta", "Cerulean", "Coral"]
+```
+
 ???
 
-?: var names = ["Beth", "Cole", "Jennifer", "Carol"]
-?: names[3]
 
-( ) "Jennifer"
-(X) "Carol"
-( ) "Beth"
+?: colors[3]
 
-?: puts "stressed".reverse
+( ) "Cerulean"
+(X) "Coral"
+( ) "Red"
 
-( ) "STRESSED"
-( ) "sTrEsSeD"
-(X) "desserts"
+?: colors.length
+
+( ) 5
+( ) 3
+(X) 4
 
 ?: puts "Hi! My name is Joe".swapcase
 
