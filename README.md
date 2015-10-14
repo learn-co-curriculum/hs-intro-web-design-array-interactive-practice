@@ -9,6 +9,7 @@ var colors = ["Red", "Magenta", "Cerulean", "Coral"]
 
 ???
 
+# Array Practice
 
 ?: colors[3]
 
