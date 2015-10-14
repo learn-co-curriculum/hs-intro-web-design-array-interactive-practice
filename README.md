@@ -7,7 +7,7 @@
 # Array Practice
 
 ?: var colors = ["Red", "Magenta", "Cerulean", "Coral"]
-colors[3]
+?: colors[3]
 
 ( ) "Cerulean"
 (X) "Coral"
