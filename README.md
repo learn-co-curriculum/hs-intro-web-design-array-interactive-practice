@@ -2,76 +2,79 @@
 
 ### What will each of the following lines of code return?
 
+All the questions in this section will be based on this array:
+```js
+var colors = ["Red", "Magenta", "Cerulean", "Coral"]
+```
+
 ???
 
 # Array Practice
 
-?: var colors = ["Red", "Magenta", "Cerulean", "Coral"];   colors[3];
+?: colors[3];
 
 ( ) "Cerulean"
 (X) "Coral"
 ( ) "Red"
 
-?: colors.length
+?: colors.length;
 
 ( ) 5
 ( ) 3
 (X) 4
 
-?: puts "Hi! My name is Joe".swapcase
+?: colors[1] = "Dusty Rose"; 
 
-(X) "hI! mY NAME IS jOE"
-( ) "HI! MY NAME IS JOE"
-( ) "hi! my name is joe"
-
-
-?: puts "short string".length
-
-(X) 12
-( ) 11
-( ) 2
+(X) ["Red", "Dusty Rose", "Cerulean", "Coral"]
+( ) ["Dusty Rose", "Magenta", "Cerulean", "Coral"]
+( ) ["Red", Dusty Rose", "Magenta", "Cerulean", "Coral"]
 
 
-?: puts "backwards".reverse.upcase
+?: Using the original array, what would the array look like after `colors.push("Cornflower Blue");`
 
-( ) "sdrawkcab"
-( ) "BACKWARDS"
-(X) "SDRAWKCAB"
+(X) ["Dusty Rose", "Magenta", "Cerulean", "Coral", "Cornflower Blue"]
+( ) ["Red", "Magenta", "Cerulean", "Coral", "Cornflower Blue"]
+( ) ["Cornflower Blue", "Dusty Rose", "Magenta", "Cerulean", "Coral"]
 
-???
+
+?: Using the original array, what would the array look like after `colors.pop();`
+
+( ) ["Dusty Rose", "Magenta", "Cerulean", "Coral", "Cornflower Blue"]
+( ) ["Magenta", "Cerulean", "Coral", "Cornflower Blue"]
+(X) ["Dusty Rose", "Magenta", "Cerulean", "Coral"]
 
 ???
 
-# Now it's your turn to use string methods. 
+???
 
-?: Get enthusiastic about ruby! How do I print out "I love ruby" in all caps?
+# Now it's your turn to use array methods
 
-( ) '"I love Ruby".swapcase'
-(X) '"I love Ruby".upcase'
-( ) '"I love Ruby".uppercase'
+?: Give the original array `var colors = ["Red", "Magenta", "Cerulean", "Coral"]` How do you replace "Magenta" with "Chartreuse"?
 
-?: Use a method to print out how long this sentence is: "This is a pretty long string. I wonder how long it is?"
+( ) colors[2] = "Chartreuse";
+(X) colors[1] = "Chartreuse";
+( ) colors.push("Chartreuse");
+
+?: How do you figure out how long the original array `var colors = ["Red", "Magenta", "Cerulean", "Coral"]` is?
  
-(X) '"This is a pretty long string. I wonder how long it is?".length'
-( ) '"This is a pretty long string. I wonder how long it is?".swapcase'
-( ) '"This is a pretty long string. I wonder how long it is?".printlength'
+(X) colors.length();
+( ) colors.count();
+( ) colors.size();
 
-?: It's backwards day! How would you print "backwards" backwards?
+?: Given the original array, how do you add "Fuchsia" to the end of the array?
+( ) colors.pop("Fuchsia")
+( ) colors.add("Fuchsia")
+(X) colors.push("Fuchsia")
 
-( ) '"backwards".length'
-( ) '"backwards".backwards'
-(X) '"backwards".reverse'
+?: Given the original array, how do you remove the last item from the array?
 
-?: Wouldn't it be great if there was a string method that always capitalized the first letter of a string? There is! "make it capitalize the first letter in this string!"
+( ) colors.popLastItem();
+( ) colors.removeLastItem();
+(X) colors.pop();
 
-( ) '"make it capitalize the first letter in this string!".upcase'
-( ) '"make it capitalize the first letter in this string!".swapcase'
-(X) '"make it capitalize the first letter in this string!".capitalize'
-
-?: How much do we love "Ruby"? So much that we want to say it in all caps AND backwards. How would you do this?
-
-( ) '"Ruby".captialize.reverse'
-( ) '"Ruby".reverse.swapcase'
-(X) '"Ruby".upcase.reverse'
+?: Given the original array, how do you sort the colors in alphabetical order?
+( ) colors.alphabetical();
+(X) colors.sort();
+( ) colors.organize();
 
 ???
