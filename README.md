@@ -2,16 +2,12 @@
 
 ### What will each of the following lines of code return?
 
-All the questions in this section will be based on this array:
-```js
-var colors = ["Red", "Magenta", "Cerulean", "Coral"]
-```
-
 ???
 
 # Array Practice
 
-?: colors[3]
+?: var colors = ["Red", "Magenta", "Cerulean", "Coral"]
+colors[3]
 
 ( ) "Cerulean"
 (X) "Coral"
