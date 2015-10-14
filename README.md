@@ -5,7 +5,7 @@
 ???
 
 ?: var names = ["Beth", "Cole", "Jennifer", "Carol"]
-  names[3]
+?: names[3]
 
 ( ) "Jennifer"
 (X) "Carol"
